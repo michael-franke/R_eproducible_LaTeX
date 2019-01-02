@@ -9,5 +9,9 @@ are stored (using R or any other programming language) and picked up by LaTeX. W
 convenience functions in LaTeX to read data from CSV files and produce single-valued results as
 well as tables. 
 
-More information is provided in the PDF file and its LaTeX-source, which give a minimal example
-of this approach.
+More information is provided in the PDF file `paper.pdf` and its LaTeX-source `paper.tex`,
+which give a minimal example of this approach.
+
+The R code that does the (dummy) data analysis is in `R_code.r`. If you change anything
+`paper.tex` or `R_code.r` you can use `make` followed by `make clean` to rebuilt the whole
+paper.
